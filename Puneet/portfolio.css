@@ -1,6 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
-  
+  backgorund-color:blue;
 }
 
 header {
@@ -31,7 +31,7 @@ a {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('./GFO2.jpeg');
+  background-image: url('./fireball1.jpeg');
   background-size: cover;
   color: #ffffff;
   height: 400px;
