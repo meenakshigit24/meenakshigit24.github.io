@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+  <div class="container">
+    <div class="child">
+    <header class="header">
+	<link href="EOWForm1.css" rel="stylesheet" type="text/css">
+	  <h1 id="title" class="text-center">Buyers Details For EOW Cases</h1>
+	 <p id="description" class="description text-center">AIRWIL's Green Avenue Buyers Details<p/> 
+	</header>
+	<body>
+	<form id="detail-form">
+	  <div class="form-group">
+	    <label id="name-label" for="1stAName">Full Name of 1st Applicant</label> 
+		<input id="1stAName" type="text" name="1stAName" class="form-control" placeholder="Enter 1st Applicant's name" required> 
+	  </div>
+	  <div>
+    <h3>Choose Tower Name *</h3>
+    <label for="beetle">
+    <input id="beetle" type="radio" name="tower-name" class="input-radio" />BEETLE
+    </label>
+    <label for="Caspia">
+    <input id="Caspia" type="radio" name="tower-name" class="input-radio"/>CASPIA
+    </label>
+    <label for="iris">
+    <input id="iris" type="radio" name="tower-name" class="input-radio" />IRIS
+    </label>
+    <label for="orchid">
+    <input id="orchid" type="radio" name="tower-name" class="input-radio" />ORCHID
+    </label>
+    <label for="lotus">
+    <input id="lotus" type="radio" name="tower-name" class="input-radio" />LOTUS
+    </label>
+    <label for="tulip">
+    <input id="tulip" type="radio" name="tower-name" class="input-radio" />TULIP
+    </label>
+    <label for="okewood">
+    <input id="okewood" type="radio" name="tower-name" class="input-radio" />OKEWOOD
+    </label>
+    <label for="rosewood">
+    <input id="rosewood" type="radio" name="tower-name" class="input-radio" />ROSEWOOD
+    </label>
+    <label for="greenotel">
+    <input id="greenotel" type="radio" name="tower-name" class="input-radio" />GREENOTEL
+    </label>
+    </div><br>
+	  <div class="form-group">
+	    <label id="name-label" for="2ndAName">Full Name of 2nd Applicant:<span  class="InCase">(In Case of Single Applicant Leave Blank , In Case of 3 or More Applicants Enter all the Names here)
+<span>
+</label>
+        <input id="2ndAName" type="text" name="2ndAName" class="form-control" placeholder="Enter 2nd Applicant's name" required>	 	
+	  </div>
+	  
+	  <div class="form-group">
+	    <label id="Address-label" for="Address">Full Address for Communication (with Pincode) :<span>*</span> </label>
+		<input id="Address" type="text" name="Address" class="form-control" placeholder="Enter your full address" required> 
+	  </div>
+	  <div class="form-group">
+        <label id="email-label" for="email">Email ID:<span>*</span></label> 
+        <input id="email" type="email" name="email"  class="form-control"
+        placeholder="Enter your Email"
+        required> 
+      </div>
+	  <div class="form-group">
+	    <label id="mobile-label" for="mobileNumber">Mobile Number:<span>*<span></label> 
+		<input id="m<br>obileNumber" type="tel" name="mobileNumber" class="form-control" pattern="[0-9]{5}-[0-9]{5}" placeholder="12345-67890" required> 
+	  </div>
+	  <div class="form-group">
+	    <label id="OriginalArea-label" for="OriginalArea">Original Area of Flat as Per BBA (in Sqft.) : <span>*</span></label> 
+		<input id="OriginalArea" type="text" name="OriginalArea" class="form-control" placeholder="Enter the Original Area" required> 
+	  </div>
+	  <div class="form-group">
+	    <label id="TotalCost-label" for="TotalCost">Total Cost of Flat (As Per BBA, Without Service Tax) : <span>*<span></label> 
+		<input id="TotalCost" type="text" name="TotalCost" class="form-control" placeholder="Enter the Total Cost" required> 
+	  </div>
+	  <div class="form-group">
+	    <label id="TotalPaid-label" for="TotalPaid">Total Paid  (Including Service Tax) : <span>*<span> </label>
+		<input id="TotalPaid" type="text" name="TotalPaid" class="form-control" placeholder="Enter the total amount paid" required> 
+	  </div>
+      <div class="form-group">
+	    <p> Did you Paid Any amount after May-2018 to AIRWIL <span>*</span></label> 
+	    <label>
+		<input name="PaidAnyAmount" value="Yes" type="radio" class="input-radio" checked>Yes</label> 
+		<label>
+		<input name="PaidAnyAmount" value="No" type="radio" class="input-radio">No</label>
+	  </div>
+	  <div class="form-group">
+	    <label id="may18-label" for="paidaftermay18">If Yes, Please Enter How much Total Paid After May-2018 : (Enter 0 if not paid anything) <span>*</span></label> 
+		<input id="paidaftermay18" type="text" name="paidaftermay18" class="form-control" placeholder="Enter the total amount paid after May-2018" required> 
+	  </div>
+	  <div class="form-group">
+	    <p>Did you Paid Anything for Extra Super Area Demand :		<span>*</span> 
+	    <label>
+		<input name="PaidExtraAmount" value="Yes" type="radio" class="input-radio" checked>Yes</label> 
+		<label>
+		<input name="PaidExtraAmount" value="No" type="radio" class="input-radio">No</label>
+	  </div>
+	  <div class="form-group">
+	    <label id="paidforSuperArea-label" for="paidforSuperArea">If Yes, Please Enter How much you Paid for Extra Super Area : (Enter 0 if not paid extra for Super Area) <span>*</span> </label>
+		<input id="paidaftermay18" type="text" name="paidaftermay18" class="form-control" placeholder="Enter the total amount paid after May-2018" required> 
+	  </div>
+	  
+	  <div class="form-group" id="declare">
+	  <span>*</span>
+	    <p> <bold>I/We Declare that:</bold></p>
+		<p>The Information given about is true to the best of my knowledge and belief & nothing has been concealed there from.</p>
+		<p> That !/We want my/our name to be added as the Complainant in the</p>
+		
+		<p> EOW FIR No-47/2018 & Case No CR-149/2020</p>
+		<p>Investigated by EOW, IO Mr. Pawan Kumar</p>
+		<input id="iAccept" type="checkbox" name="iAccept" value="I Accept" required>
+		<label for="iAccept"> I Accept</label>
+	  </div>
+	   <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+	</form>
+</body>	
+  </div>
+  </div>
+</html>
