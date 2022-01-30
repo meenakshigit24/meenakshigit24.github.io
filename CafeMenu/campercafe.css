@@ -1,0 +1,80 @@
+body{
+	background-image:url(beans.jpg);
+	font-family:sans-serif;
+	padding:20px;
+}
+.menu{
+width:80%;
+max-width:600px;
+background-color:burlywood;
+margin-left:auto;
+margin-right:auto;
+padding:30px;
+}
+h1, h2{ 
+	font-family:Impact, serif;	
+}
+h1{
+	font-size:40px;
+	margin-top:0px;
+	margin-bottom:15px;
+} 
+h2{
+	font-size:30px;
+	
+} 
+hr{
+	height:2px;
+	background-color:brown;
+	border-color:brown;
+
+  }
+.bottom-line{
+	margin-top:30px;
+	}
+.established{
+	font-style:italic;
+}
+.item p{
+	display:inline-block;
+	font-size:18px;
+	margin-top:5px;
+  	margin-bottom:5px;
+ }
+
+.flavor, .dessert{
+	text-align:left;
+	width:75%;
+	
+} 
+.price{
+ 	text-align:right;
+	width:25%;
+}
+
+h1, h2 , p{
+              text-align:center;   
+            }
+/* FOOTER */
+footer{
+	font-size:14px;
+	}
+a:visited{
+	color:black;
+	}
+a:hover{
+ 	color:brown;
+}
+a:active{
+	color:brown;
+	}
+
+.address{
+	margin-bottom:15px;
+	}
+img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-25px;
+}
